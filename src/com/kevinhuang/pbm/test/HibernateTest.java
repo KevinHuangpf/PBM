@@ -8,7 +8,7 @@ import org.hibernate.service.ServiceRegistry;
 
 import com.kevinhuang.pbm.entity.Account;
 
-public class Hibernate {
+public class HibernateTest {
     public static void main(String[] args) {
          //1.新建configuration对象
         Configuration configuration=new Configuration().configure();
@@ -27,7 +27,7 @@ public class Hibernate {
         Account account = new Account();
 		account.setPassword("12345");
 		account.setBalance(100);
-		account.setName("kevinhuang");
+		account.setName("kevin");
 		
         session.save(account);
         //6.提交事务
