@@ -4,7 +4,7 @@ import org.hibernate.*;
 import com.kevinhuang.pbm.entity.Account;
 import com.kevinhuang.pbm.util.*;
 
-//DAO
+//DAO interface
 public class AccountDao {
 	public void insertAccount(Account account) throws Exception{
 		Session session =null;
